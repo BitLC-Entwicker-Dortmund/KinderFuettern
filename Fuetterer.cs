@@ -9,5 +9,9 @@ namespace KinderFuettern {
         internal void Fuettern ( Kind kind , Nahrung nahrung ) {
             kind.NahrungAufnehmen ( nahrung );
         }
+
+        internal void WasHastduGegessen ( Kind kind) {
+            kind.IchHabeGegessen ( );
+        }
     }
 }
